@@ -1,0 +1,233 @@
+html, body {
+  height:100%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  margin:0;
+  overflow-x:hidden;
+}
+
+.welcome {
+  background-image:url('../img/Testflight.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 50% 50%;
+  height: 100%;
+  overflow: hidden;
+  margin:0;
+}
+
+#page-header {
+background: white;
+color: black;
+overflow: hidden;
+border-bottom: 1px solid #7f839d;
+padding: 0 2%;
+
+}
+#page-header a {
+color: inherit;
+text-decoration: none;
+}
+#page-header h1 {
+float: left;
+color: black;
+font-family: 'Lobster', cursive;
+font-size: 1.5em;
+margin: 10px 0 0 0;
+}
+#page-header nav {
+float: right;
+}
+#page-header nav li {
+float: left;
+list-style: none;
+font-family: 'Avenir Next', serif;
+text-transform: uppercase;
+
+}
+#page-header nav a {
+display: block;
+padding: 10px 15px 15px 15px;
+}
+#page-header nav li a:hover {
+color: grey;
+}
+#page-header nav li.active a {
+background: #666;
+}
+
+.slogan h1{
+  /*font-style:italic;*/
+  font-size:70px;
+  font-family: "Avenir Next";
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin: 15% 0;
+  padding:15px;
+  text-align:center;
+  color:white;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.scroll-down {
+    -webkit-animation: blink 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 3s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 3ss;
+    -o-animation-iteration-count: infinite;
+
+}
+
+
+.scroll-down {
+  font-family: "Avenir Next";
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-bottom: 0;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  
+}
+
+
+.scroll-down a{
+  text-decoration: none;
+  color:white;
+}
+
+.scrollText p {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start:0px;
+  -webkit-margin-end: 0px;
+
+}
+
+
+#banner {
+  background: url('#') center center no-repeat;
+  background-size: cover;
+  overflow:hidden;
+  padding: 4% 5%;
+  background-color:#154552;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+  max-height: 100%;
+}
+
+#WorldmapContainer {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.paul {
+  position: absolute;
+  bottom: 0px;
+  left:0.5%;
+  color:white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.paul .deco {
+  color:yellow;
+}
+
+.contents {
+  margin: 20px;
+  text-align: center;
+}
+
+.content h1{
+  font-size: 38px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #303333;
+  margin:0;
+}
+
+.content p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  color: #98999c;
+  line-height: 30px;
+}
+
+form {
+  margin: 0 auto;
+  position: relative;
+}
+
+.form-row {
+  
+  position: relative;
+  margin-bottom: 13px;
+}
+
+textarea,
+input[type="text"],
+select {
+  border: 1px solid #BCBCBC;
+  padding: 6px;
+  margin: 0;
+  background: #FFF9E2;
+  border-radius: 4px;
+}
+
+input[type="text"] {
+  width: 218px;
+  height: 10px;
+  margin: 2px 0 0;
+}
+
+textarea {
+  height: 76px;
+  width: 466px;
+  padding: 0;
+  margin: 0;
+}
+
+
+footer {
+  background:#000000;
+  color:white;
+  padding: 2% 3%;
+}
